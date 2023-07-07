@@ -1,11 +1,5 @@
 import streamlit as st
 import openai
-from dotenv import load_dotenv
-import os
-
-def configure():
-    load_dotenv()
-
 
 # Function to communicate with ChatGPT
 def chat_with_gpt(prompt):
